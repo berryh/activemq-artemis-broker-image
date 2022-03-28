@@ -1,0 +1,7 @@
+schema_version: 1
+artifacts:
+    - name: apache-artemis-bin
+      target: apache-artemis-bin.zip
+      url: https://archive.apache.org/dist/activemq/activemq-artemis/2.18.0/apache-artemis-2.18.0-bin.zip
+      description: "Apache ActiveMQ Artemis messaging broker"
+      md5: 9608b719928190d09daab548db8496e4

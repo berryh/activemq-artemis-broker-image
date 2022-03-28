@@ -11,7 +11,7 @@ unzip -q "$SOURCES_DIR/apache-artemis-bin.zip" -d apache-artemis-bin
 mv "$(ls -d apache-artemis-bin/*)" $AMQ_HOME
 rmdir apache-artemis-bin
 
-test -f $AMQ_HOME/lib/artemis-server-${APACHE_ARTEMIS_VERSION}.jar
+test -f $AMQ_HOME/lib/artemis-server-*.jar
 
 cp $ADDED_DIR/launch.sh $AMQ_HOME/bin
 chmod 0755 $AMQ_HOME/bin/launch.sh
